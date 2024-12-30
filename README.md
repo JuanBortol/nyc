@@ -1,7 +1,7 @@
-# NYC
+# NYC Artesanías SISTEMA INFORMÁTICO
 
 ## Descripción
-NYC es un sistema personalizado para la gestión empresarial. Este sistema permite manejar costos y precios, gestionar pipelines y realizar cálculos por lotes.
+NYC es un sistema personalizado para la gestión de productos, en particular de mi empresa. Este sistema permite manejar costos y precios, gestionar pipelines y realizar cálculos por lotes.
 
 ## Características
 - **Gestión de costos y precios**: Mantén un control detallado de los costos y precios de tus productos.
@@ -9,18 +9,20 @@ NYC es un sistema personalizado para la gestión empresarial. Este sistema permi
 - **Cálculo por lotes**: Realiza cálculos eficientes para la producción en lotes.
 
 ## Instalación
+
 **1. Clona el repositorio:**
-   ```bash
+   
    git clone https://github.com/JuanBortol/nyc.git
 
 **2. Navega al directorio del proyecto:**
+
   cd nyc
 
 **3. Instala las dependencias:**
 
   bundle install
 
-**4. Uso**
+## 4. Uso
 
 **4.1 Configura la base de datos:**
   
