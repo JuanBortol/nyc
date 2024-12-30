@@ -1,4 +1,4 @@
-# NYC Artesanías SISTEMA INFORMÁTICO
+# NYC Artesanías -- Sistema Informático
 
 ## Descripción
 NYC es un sistema personalizado para la gestión de productos, en particular de mi empresa. Este sistema permite manejar costos y precios, gestionar pipelines y realizar cálculos por lotes.
