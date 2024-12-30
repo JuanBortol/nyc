@@ -22,17 +22,19 @@ NYC es un sistema personalizado para la gestión de productos, en particular de 
 
   bundle install
 
-## 4. Uso
+## Uso
 
-**4.1 Configura la base de datos:**
+**Configura la base de datos:**
   
   rake db:migrate
 
-**4.2 Inicia el servidor:**
+**Inicia el servidor:**
   rackup -p <#puerto>
 Abre tu navegador y ve a http://localhost:<#puerto> para comenzar a usar el sistema.
 
-Contribuciones
+
+
+## Contribuciones
 ¡Las contribuciones son bienvenidas! Por favor, sigue estos pasos para contribuir:
 
 Haz un fork del repositorio.
