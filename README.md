@@ -30,7 +30,8 @@ NYC es un sistema personalizado para la gestión de productos, en particular de 
 
 **Inicia el servidor:**
   rackup -p <#puerto>
-Abre tu navegador y ve a http://localhost:<#puerto> para comenzar a usar el sistema.
+
+  Abre tu navegador y ve a http://localhost:<#puerto> para comenzar a usar el sistema.
 
 
 
