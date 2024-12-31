@@ -1,0 +1,28 @@
+<h1>Listado de Inputs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Tipo</th>
+      <th>Valor</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @inputs.each do |input| %>
+      <tr>
+        <td><%= input.name %></td>
+        <td><%= input.input_type %></td>
+        <td><%= input.value %></td>
+        <td>
+          <a href="/inputs/<%= input.id %>/edit">Editar</a>
+          <a href="/inputs/<%= input.id %>" data-method="delete">Eliminar</a>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<a href="/inputs/new">Crear nuevo input</a>
+

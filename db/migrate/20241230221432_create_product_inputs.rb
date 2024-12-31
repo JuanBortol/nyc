@@ -1,10 +1,9 @@
 class CreateProductInputs < ActiveRecord::Migration[8.0]
   def change
-  	create_table :inputs do |t|
-      t.string :name
-      t.text :description
-      t.decimal :cost, precision: 10, scale: 2
-      t.string :unit # Ejemplo: "kg", "m", "cm", "unidad"
+    create_table :product_inputs do |t|
+      t.references :product, null: false, foreign_key: true # Relación con la tabla productos
+      t.references :input, null: false, foreign_key: true   # Relación con la tabla insumos
+      t.decimal :quantity, precision: 10, scale: 2, null: false # Cantidad del insumo en el producto
       t.timestamps
     end
   end
